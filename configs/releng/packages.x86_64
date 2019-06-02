@@ -1,3 +1,22 @@
+# add support for virtual box
+
+virtualbox-guest-utils
+virtualbox-guest-dkms
+
+# add support for xorg 
+xorg-server
+xorg-xinit
+xorg-twm
+xterm
+
+#add support for desktop
+i3-gaps
+zsh
+zsh-completions
+termite
+
+
+# basic packages needed to run
 alsa-utils
 arch-install-scripts
 b43-fwcutter
