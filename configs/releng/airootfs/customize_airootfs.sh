@@ -10,6 +10,9 @@ ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 cp -aT /etc/skel/ /root/
 chmod 700 /root
 
+mv /configs/fenrir-settings.conf /etc/fenrirscreenreader/settings/settings.conf
+rm -r /configs
+
 sed -i 's/#\(PermitRootLogin \).\+/\1yes/' /etc/ssh/sshd_config
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist
 sed -i 's/#\(Storage=\)auto/\1volatile/' /etc/systemd/journald.conf
