@@ -2,10 +2,10 @@
 
 set -e -u
 
-iso_name=TalkingArch
-iso_label="ARCH_$(date +%Y%m)"
-iso_publisher="Arch Linux <http://www.archlinux.org>"
-iso_application="Arch Linux Live/Rescue CD"
+iso_name=BlindArch
+iso_label="BlindARCH_$(date +%Y%m)"
+iso_publisher="The Blind Computing team <https://blindcomputing.org/>"
+iso_application="Accessible Arch Linux Live/Rescue CD"
 iso_version=$(date +%Y.%m.%d)
 install_dir=arch
 work_dir=work
