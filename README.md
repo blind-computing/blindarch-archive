@@ -1,3 +1,4 @@
+talking
 # BlindArch
 
 BlindArch is a project based on [Talking Arch](http://talkingarch.info) to create an ArchLinux install CD for blind and visually impaired users. It also offers an easy to use installer to allow users to set up a completely accessible and customisable arch linux installation.
@@ -26,7 +27,7 @@ It's as easy as that!
 
 ## Miscellaneous Notes
 
-Most of the modifications made to the talkingarch iso are confined to the airootfs subdirectory.
+Most of the modifications made to the blindarch iso are confined to the airootfs subdirectory.
 A couple of packages were also added to the package lists, including some custom packages sourced from [the Blind Computing repo](https://blindcomputing.org/blindarch/repo).
 The Makefile has also been modified to produce image files with "BlindArch" in their names, and isolinux is configured to show the name BlindArch.
 
