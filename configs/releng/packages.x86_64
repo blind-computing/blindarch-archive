@@ -1,6 +1,7 @@
 alsa-utils
 arch-install-scripts
 b43-fwcutter
+bash-completion
 brltty-minimal
 broadcom-wl
 btrfs-progs
@@ -21,6 +22,7 @@ exfat-utils
 f2fs-tools
 fenrir
 fsarchiver
+git
 gnu-netcat
 gpm
 gptfdisk
