@@ -15,6 +15,14 @@ zsh
 zsh-completions
 termite
 
+# screen magnifier kmag and deps
+kmag
+hicolor-icon-theme
+kio
+libqaccessibilityclient
+extra-cmake-modules
+kdoctools
+
 
 # basic packages needed to run
 alsa-utils
