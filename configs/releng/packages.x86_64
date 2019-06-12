@@ -19,6 +19,7 @@ networkmanager
 network-manager-applet
 xdg-user-dirs
 bash-completion
+perl
 
 # screen magnifier kmag and deps
 kmag
