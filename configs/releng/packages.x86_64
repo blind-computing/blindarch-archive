@@ -1,44 +1,39 @@
-# add support for virtual box
+# Screen reader, deps and reccommended packages.
+fenrir
+espeak
+python-espeak
+python-daemonize
+python-dbus
+python-evdev
+python-pyte
+python-pyudev
+socat
+sox
 
+## Drivers
+
+# Virtual Box guest additions
 virtualbox-guest-utils
 virtualbox-guest-dkms
 
-# add support for xorg 
-xorg-server
-xorg-xinit
-xorg-twm
-xterm
+# Wireless firmware and tools
+b43-fwcutter
+broadcom-wl
+crda
+ipw2100-fw
+ipw2200-fw
+iwd
+wireless-regdb
+wireless_tools
+wpa_supplicant
 
-#add support for desktop
-i3-gaps
-zsh
-zsh-completions
-termite
-compton
-networkmanager
-network-manager-applet
-xdg-user-dirs
-bash-completion
-
-# screen magnifier kmag and deps
-kmag
-hicolor-icon-theme
-kio
-libqaccessibilityclient
-extra-cmake-modules
-kdoctools
-
-
-# basic packages needed to run
+# Basic packages
 alsa-utils
 arch-install-scripts
-b43-fwcutter
 bash-completion
 brltty-minimal
-broadcom-wl
 btrfs-progs
 clonezilla
-crda
 darkhttpd
 ddrescue
 dhclient
@@ -48,11 +43,9 @@ dnsmasq
 dnsutils
 dosfstools
 elinks
-espeak
 ethtool
 exfat-utils
 f2fs-tools
-fenrir
 fsarchiver
 git
 gnu-netcat
@@ -60,10 +53,7 @@ gpm
 gptfdisk
 grub
 hdparm
-ipw2100-fw
-ipw2200-fw
 irssi
-iwd
 lftp
 linux-atm
 lsscsi
@@ -84,20 +74,12 @@ partimage
 ppp
 pptpclient
 python
-python-daemonize
-python-dbus
-python-espeak
-python-evdev
-python-pyte
-python-pyudev
 refind-efi
 rp-pppoe
 rsync
 sdparm
 sg3_utils
 smartmontools
-socat
-sox
 sudo
 tcpdump
 testdisk
@@ -105,8 +87,5 @@ usb_modeswitch
 vim
 vpnc
 wget
-wireless-regdb
-wireless_tools
-wpa_supplicant
 wvdial
 xl2tpd
