@@ -12,10 +12,6 @@ cp -aT /etc/skel/ /root/
 
 usermod -s /usr/bin/bash root
 
-useradd -m -p "" -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash liveuser
-
-chown -R liveuser:users /home/liveuser
-
 mv /configs/fenrir-settings.conf /etc/fenrirscreenreader/settings/settings.conf
 rm -r /configs
 
