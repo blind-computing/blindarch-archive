@@ -1,0 +1,15 @@
+[Unit]
+Description=Allow the user to pick a card for sound output.
+# This needs to run after the audio device becomes available.
+Wants=systemd-udev-settle.service
+After=systemd-udev-settle.service sound.target livecd-alsa-unmuter.service
+DefaultDependencies=no
+Before=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pick-a-card
+StandardOutput=syslog
+
+[Install]
+WantedBy=sound.target
