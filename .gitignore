@@ -1,2 +1,6 @@
 configs/releng/work
 configs/releng/out
+
+# Get rid of vim save and undo files
+*~
+.*.un~
