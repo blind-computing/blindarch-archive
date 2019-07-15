@@ -1,7 +1,7 @@
 # Screen reader, deps and reccommended packages.
 fenrir
-espeak
-python-espeak
+espeak-ng
+speech-dispatcher
 python-daemonize
 python-dbus
 python-evdev
