@@ -1,7 +1,7 @@
 [Unit]
 Description=Fenrir screenreader
 Wants=systemd-udev-settle.service
-After=systemd-udev-settle.service getty.target
+After=systemd-udev-settle.service getty.target livecd-alsa-unmuter.service pick-a-card.service
 [Service]
 Type=forking
 PIDFile=/var/run/fenrir.pid
